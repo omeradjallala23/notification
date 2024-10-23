@@ -47,28 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyARjhCgoxcxZMCFYBTAx8qwRTCTGcxlcKo',
-    appId: '1:219628265332:android:828d681b4d44d816711621',
-    messagingSenderId: '219628265332',
-    projectId: 'push-notification-df5a5',
-    storageBucket: 'push-notification-df5a5.appspot.com',
+    apiKey: 'AIzaSyDV3WAlz8ZNgX0zfcoOtdCpbfONTunsl0c',
+    appId: '1:555034540330:web:388cb53e6fedba31f60653',
+    messagingSenderId: '555034540330',
+    projectId: 'glorypalace-hotel-a31ac',
+    storageBucket: 'glorypalace-hotel-a31ac.appspot.com',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBnlVcao_qfQf_xpX3phL5dCEz15sgatmk',
-    appId: '1:219628265332:web:dfdc4bad1f678e8b711621',
-    messagingSenderId: '219628265332',
-    projectId: 'push-notification-df5a5',
-    authDomain: 'push-notification-df5a5.firebaseapp.com',
-    storageBucket: 'push-notification-df5a5.appspot.com',
+    apiKey: 'AIzaSyDV3WAlz8ZNgX0zfcoOtdCpbfONTunsl0c',
+    appId: '1:555034540330:web:388cb53e6fedba31f60653',
+    messagingSenderId: '555034540330',
+    projectId: 'glorypalace-hotel-a31ac',
+    storageBucket: 'glorypalace-hotel-a31ac.appspot.com',
+    authDomain: 'glorypalace-hotel-a31ac.firebaseapp.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAeFt-hL55qzymqTOrcjuC46I4IxIktxyo',
-    appId: '1:219628265332:ios:e9461ba1889c4bd9711621',
-    messagingSenderId: '219628265332',
-    projectId: 'push-notification-df5a5',
-    storageBucket: 'push-notification-df5a5.appspot.com',
+    apiKey: 'AIzaSyDV3WAlz8ZNgX0zfcoOtdCpbfONTunsl0c',
+    appId: '1:555034540330:web:388cb53e6fedba31f60653',
+    messagingSenderId: '555034540330',
+    projectId: 'glorypalace-hotel-a31ac',
+    storageBucket: 'glorypalace-hotel-a31ac.appspot.com',
     iosBundleId: 'com.example.pushNotificationsFirebaseFlutter',
   );
 

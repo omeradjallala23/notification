@@ -2,12 +2,14 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js");
 
 firebase.initializeApp({
-    apiKey: "AIzaSyBnlVcao_qfQf_xpX3phL5dCEz15sgatmk",
-  authDomain: "push-notification-df5a5.firebaseapp.com",
-  projectId: "push-notification-df5a5",
-  storageBucket: "push-notification-df5a5.appspot.com",
-  messagingSenderId: "219628265332",
-  appId: "1:219628265332:web:dfdc4bad1f678e8b711621"
+  apiKey: 'AIzaSyDV3WAlz8ZNgX0zfcoOtdCpbfONTunsl0c',
+  appId: '1:555034540330:web:388cb53e6fedba31f60653',
+  messagingSenderId: '555034540330',
+  projectId: 'glorypalace-hotel-a31ac',
+  authDomain: 'glorypalace-hotel-a31ac.firebaseapp.com',
+  databaseURL: 'https://glorypalace-hotel-a31ac-default-rtdb.firebaseio.com',
+  storageBucket: 'glorypalace-hotel-a31ac.appspot.com',
+  measurementId: 'G-BNBM7KYHN3',
 
 });
 

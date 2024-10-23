@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:push_notifications_firebase_flutter/message.dart';
 import 'package:push_notifications_firebase_flutter/push_notifications.dart';
 
-import 'firebase_options.dart';
+// import 'firebase_options.dart';
 import 'home.dart';
 
 final navigatorKey = GlobalKey<NavigatorState>();
@@ -40,7 +40,16 @@ void showNotification({required String title, required String body}) {
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+    options: const FirebaseOptions(      
+      apiKey: 'AIzaSyDV3WAlz8ZNgX0zfcoOtdCpbfONTunsl0c',
+      appId: '1:555034540330:web:388cb53e6fedba31f60653',
+      messagingSenderId: '555034540330',
+      projectId: 'glorypalace-hotel-a31ac',
+      authDomain: 'glorypalace-hotel-a31ac.firebaseapp.com',
+      databaseURL: 'https://glorypalace-hotel-a31ac-default-rtdb.firebaseio.com',
+      storageBucket: 'glorypalace-hotel-a31ac.appspot.com',
+      measurementId: 'G-BNBM7KYHN3',
+    )
   );
 
   // on background notification tapped

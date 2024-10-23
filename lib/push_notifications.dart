@@ -30,7 +30,7 @@ class PushNotifications {
         // get the device fcm token
         token = await _firebaseMessaging.getToken(
             vapidKey:
-                "BJzRufH-VxRc7wLunA6WOaf-gVurFKhDluPRFB8644PQHw6OfWH8uzybtYsFBTA326_yy3PEG-L7OK_ojVsMmrI");
+                "BE-Nfe97cDXQSeQsftjHnsfSM5YjbggjPRFDbN6t5_1GlulV5Kal27Do5OIA2VaDF9og-ZbzkGj4niQXloL7-1o");
         print("for web device token: $token");
       } else {
         // get the device fcm token
@@ -41,7 +41,7 @@ class PushNotifications {
     } catch (e) {
       print("failed to get device token");
       if (maxRetires > 0) {
-        print("try after 10 sec");
+        print("try after 10 sec ${e.toString()}");
         await Future.delayed(Duration(seconds: 10));
         return getFCMToken(maxRetires: maxRetires - 1);
       } else {
